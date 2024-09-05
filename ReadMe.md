@@ -61,7 +61,9 @@ This will load the historical data, preprocess it, and generate a forecast.
 
 The `forecast-excel` file is a sample output of the script. It contains the forecasted prices for each product within each machine. The file is in Excel format and can be opened using any spreadsheet software.
 
+![](https://github.com/Ebullioscopic/Prediction-Vending-Machine/screenshot.png)
 **Contributors**
 ---------------
 
 * [Hariharan Mudaliar](https://github.com/Ebullioscopic)
+* [Tumati Omkar Chowdary](https://github.com/omkar-tumati)
