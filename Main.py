@@ -6,7 +6,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Load the data
-data = pd.read_csv(r'/Users/admin63/Downloads/combined_file_updated.csv')
+data = pd.read_csv(r'combined_file_updated.csv')
 
 # Convert the Timestamp column to datetime format
 data['Timestamp'] = pd.to_datetime(data['Timestamp'], format='%Y-%m-%d %H:%M:%S')

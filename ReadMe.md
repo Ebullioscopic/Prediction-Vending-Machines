@@ -56,6 +56,36 @@ python Main.py
 ```
 This will load the historical data, preprocess it, and generate a forecast.
 
+To execute the lstm script, run the following command:
+```bash
+python main-lstm.py
+```
+This will load the historical data, preprocess it, and generate a forecast using LSTM
+
+
+
+**Forecasted-Sales-LSTM.xlsx**
+==========================
+
+### Description
+
+The `forecasted-sales-lstm.xlsx` file is a sample output of the LSTM script (`main-lstm.py`). It contains the forecasted sales data for a specified period, generated using the Long Short-Term Memory (LSTM) algorithm.
+
+### Contents
+
+The file includes the following columns:
+
+* **Date**: The date for which the sales are forecasted
+* **Predicted_Sales**: The forecasted sales value for each date
+
+### Format
+
+The file is in Excel format (.xlsx) and can be opened using any spreadsheet software.
+
+### Usage
+
+This file can be used to analyze and visualize the forecasted sales data, and to make informed decisions based on the predicted trends.
+
 **Forecast-Excel File**
 ----------------------
 
@@ -67,3 +97,4 @@ The `forecast-excel` file is a sample output of the script. It contains the fore
 
 * [Hariharan Mudaliar](https://github.com/Ebullioscopic)
 * [Tumati Omkar Chowdary](https://github.com/omkar-tumati)
+
